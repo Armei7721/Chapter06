@@ -4,7 +4,7 @@ namespace Method
 {
     
     class Calculator
-    {
+    {       
         public static int Plus(int a, int b)
         {
             return a + b;
@@ -19,11 +19,14 @@ namespace Method
         
         static void Main(string[] args)
         {
+            
             int result = Calculator.Plus(3, 4);
             Console.WriteLine(result);
 
             result = Calculator.Minus(5, 2);
             Console.WriteLine(result);
+
+            
         }
     }
     

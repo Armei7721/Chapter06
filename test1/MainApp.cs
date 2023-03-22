@@ -8,6 +8,7 @@ namespace test1
 {
     class MainApp
     {/*
+        예제 1
         static double Square(double arg)
         {
             return arg * arg;
@@ -21,7 +22,7 @@ namespace test1
             Console.WriteLine("결과 : {0}", Square(arg));
         }
         */
-        /*
+        /* 예제 2
         public static void Main()
         {
            double mean = 0;
@@ -35,7 +36,7 @@ namespace test1
             mean = (a + b + c + d + e) / 5;
 
         }*/
-        
+        // 예제 3
         public static void Main()
         {
             int a = 3;
@@ -44,7 +45,7 @@ namespace test1
 
             Plus(a, b, out resultA);
 
-            Console.WriteLine("{0}+{1}={2}", a, b, resultA);
+            Console.WriteLine("{0} + {1} = {2}", a, b, resultA);
 
             double x = 2.4;
             double y = 3.1;
@@ -52,7 +53,7 @@ namespace test1
 
             Plus(x, y, out resultB);
 
-            Console.WriteLine("{0}+{1}={2}", x, y, resultB);
+            Console.WriteLine("{0} + {1} = {2}", x, y, resultB);
         }
 
         public static void Plus(int a, int b, out int c)

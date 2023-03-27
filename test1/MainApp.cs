@@ -37,6 +37,7 @@ namespace test1
 
         }*/
         // 예제 3
+        
         public static void Main()
         {
             int a = 3;
@@ -60,12 +61,13 @@ namespace test1
         {
             c = a + b;
         }
-        public static double Plus(double a, double b, out double c)
+        public static void Plus(double a, double b, out double c)
         {
             c = a + b;
-           return c;
+         
         }
         
-      
+        
+
     }
 }
